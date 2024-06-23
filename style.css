@@ -1,0 +1,39 @@
+body
+{background-color: aqua;}
+
+a:link
+{
+    color: antiquewhite;
+    background-color: brown;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 13px;
+}
+
+a:visited
+{
+    color:aliceblue;
+    background-color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+a:hover
+{
+    color: black;
+    background-color:bisque;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+a:active
+{
+    color: aliceblue;
+    background-color: blueviolet;
+    text-decoration:overline;
+    padding: 15px;
+}

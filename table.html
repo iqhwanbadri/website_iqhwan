@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>table & css</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, td, tr, th
+            {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        td
+            {
+                text-align: center;
+            }
+    </style>
+    <body>
+    
+        <a href="index.html" target="_blank">home</a>
+       
+        <a href="bio.html" target="_blank">biodata</a>
+     
+        <a href="contact.html" target="_blank">contact</a>
+       
+
+        <h2>types of tables</h2>
+
+        <table style="width: 70%;" align="center">
+            <caption>sample 1: table</caption>
+            <tr>
+                <th>name</th>
+                <th>staff id</th>
+                <th>group</th>
+            </tr>
+            <tr>
+                <td>iqhwan</td>
+                <td>2022981273</td>
+                <td>n5im1105a</td>
+            </tr>
+            <tr>
+                <td>iqhwan</td>
+                <td>2022981273</td>
+                <td>n5im1105a</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table style="width: 100%;" align="center">
+            <caption>sample 2: table with column span</caption>
+            <tr>
+                <th>name</th>
+                <th colspan="2">favourite subject</th>
+            </tr>
+            <tr>
+                <td>iqhwan</td>
+                <td>bm</td>
+                <td>bi</td>
+            </tr>
+            <tr>
+                <td>iqhwan</td>
+                <td>bm</td>
+                <td>bi</td>
+            </tr>
+            <tr>
+                <td>iqhwan</td>
+                <td colspan="2">cataloguing</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table style="width: 70%;" align="center" cellspacing="7" cellpadding="4">
+            <caption>sample 3: table with row span</caption>
+            <tr>
+                <th>name</th>
+                <td>iqhwan</td>
+            </tr>
+            <tr>
+                <th rowspan="2">email</th>
+                <td>iqhwanbadri@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2022981273@student.uitm.edu.my</td>
+            </tr>
+        </table>
+    </body>
+</html>
